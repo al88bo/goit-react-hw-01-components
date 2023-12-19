@@ -1,0 +1,23 @@
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 10px 0 10px -10px gray, -10px 0 10px -10px gray;
+}
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid lightslategray;
+}
+.online {
+  border: none;
+  background-color: rgb(5, 160, 5);
+}
